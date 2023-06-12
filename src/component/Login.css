@@ -1,0 +1,295 @@
+.bodyLogin {
+    background-color: #36416A;
+    width: 100%;
+    height: 100%;
+    position: absolute;   
+}
+.appNameLogin11{
+    width: 10rem;
+    position: absolute;
+    left: 30.5rem;
+    color: #fff;
+    font-size: 2rem;
+}
+.appTextLogin11{
+    width: 40rem;
+    color: #fff;
+    position: absolute;
+    left: 30.5rem;
+    top: 5rem;
+}
+
+.portionLogin {
+    width: 40.5rem;
+    height: 20rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    position: absolute;
+    top: 13rem;
+    left: 30.5rem;
+}
+
+.inputLogIn77 {
+    width: 20rem;
+    position: relative;
+    left: 7.8rem;
+    top: 3.3rem;
+    margin-top: 1.3rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.inputLogIn78 {
+    width: 20rem;
+    position: relative;
+    left: 7.8rem;
+    top: 4.3rem;
+    margin-top: 1.3rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.loginText99 {
+    position: relative;
+    top: 6rem;
+    color: #000;
+    left: 2.5rem;
+}
+
+.signupLink99 {
+    position: relative;
+    top: 3.6rem;
+    left: 13.2rem;
+}
+
+.emailPic77 {
+    position: relative;
+    left: 2rem;
+    top: 4rem;
+}
+
+.passwordPic77 {
+    position: relative;
+    top: 5rem;
+    left: 2.3rem;
+}
+
+.loginButton77 {
+    width: 7em;
+    height: 1.7rem;
+    position: relative;
+    top: 7rem;
+    left: 25rem;
+    background-color: #36416A;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:650px) {
+    .bodyLogin {
+        background-color: #36416A;
+        width: 65rem;
+       position: absolute;
+       height:93.6rem ;
+    }
+
+    .appNameLogin11 {
+        width: 16rem;
+        font-size: 3.5rem;
+        font-weight: 500;
+        position: absolute;
+        top: 10rem;
+        left: 8rem;
+      
+    }
+
+    .appTextLogin11 {
+        width: 25rem;
+        font-size: 1.3rem;
+        position: absolute;
+        top: 17rem;
+        left: 8rem;
+    }
+
+    .portionLogin {
+        width: 50.5rem;
+        height: 30rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        position: absolute;
+        top: 26rem;
+        left: 8rem;
+    }
+
+    .inputLogIn77 {
+        width: 30rem;
+        position: relative;
+        left: 12.8rem;
+        top: 4.8rem;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        font-size: 1.4rem;
+    }
+
+    .inputLogIn78 {
+        width: 30rem;
+        position: relative;
+        left: 13.1rem;
+        top: 7.3rem;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid black;
+        font-size: 1.4rem;
+    }
+
+    .emailPic77{
+        width: 2.4rem;
+        position: absolute;
+        left: 4rem;
+        top: 6.5rem;
+
+    }
+
+    .passwordPic77 {
+        width: 2.1rem;
+        position: absolute;
+        top: 11.0rem;
+        left: 4rem;
+    }
+
+    .loginText99 {
+        width: 16rem;
+        position: absolute;
+        top: 15rem;
+        left: 4rem;
+        color: #000;
+        font-size: 1.5rem;
+    }
+
+    .signupLink99 {
+        position: absolute;
+        top: 16.4rem;
+        left: 20.7rem;
+        font-size: 1.5rem;
+
+    }
+
+    .loginButton77 {
+        width: 23em;
+        height: 3rem;
+        position: relative;
+        top: 16.5rem;
+        left: 6rem;
+        background-color: #36416A;
+        color: #fff;
+        border: none;
+        border-radius: 2rem;
+        cursor: pointer;
+        font-size: 1.6rem;
+    }
+}
+
+/* @media only screen and (min-width:360px) {
+    .body22{
+        
+        width: 62rem;
+        background-color: #36416A;
+        color: #fff;
+        height: 124.8rem;
+         position: absolute;
+         top: 0rem;
+    } 
+    .appNameLogin{
+        width: 16rem;
+    font-size: 3.5rem;
+    font-weight: 500;
+    position: relative;
+    left: 0rem;
+    top: 23rem;
+    }  
+.appTextLogin{
+    width: 35rem;
+    position: relative;
+    left: 17rem;
+    top: 23rem;
+    font-size: 2rem;
+}
+.portion55{
+    width: 50.5rem;
+    height: 30rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    position: absolute;
+    top: 24rem;
+    left:6rem;
+}
+
+.inputLogIn2{
+    width: 30rem;
+    position: relative;
+    left: 12.8rem;
+    top: 4.8rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 1.4rem;
+}
+.inputLogIn4{
+    width: 30rem;
+    position: relative;
+    left: 13.1rem;
+    top: 7.3rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 1.4rem;
+}
+
+.emailPic55{
+    width: 2.4rem;
+    position: absolute;
+    left: 4rem;
+    top: 6.5rem;
+    
+}
+.passwordPic55{
+    width: 2.1rem;
+    position: absolute;
+    top: 11.0rem;
+    left: 4rem;
+}
+.loginText55{
+    width: 16rem;
+    position: absolute;
+    top: 15rem;
+    left: 4rem;
+    color: #000;
+    font-size: 1.5rem;
+}
+.signupLink55{
+    position: absolute;
+    top: 16.4rem;
+    left: 20.7rem;
+    font-size: 1.5rem;
+
+}
+
+.loginButton55{
+    width: 23em;
+    height: 3rem;
+    position: relative;
+    top: 16.5rem;
+    left: 6rem;
+    background-color: #36416A;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+} 
+ } */

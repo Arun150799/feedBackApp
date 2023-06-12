@@ -1,0 +1,134 @@
+.header{
+    width:60rem;
+    position: absolute;
+    top: -1rem;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #36416A;
+    color: #fff;
+}
+.appNameLogin{
+    position: absolute;
+    top: 5.3rem;
+    left: 31rem;
+    font-size: 2.7rem;
+    font-weight: 500;
+
+}
+.appTextLogin{
+    width: 23rem;
+    position: absolute;
+    top: 11rem;
+    left: 31rem;
+    font-size: 1.2rem;
+}
+
+.header li{
+    display: inline-block; 
+}
+.title{
+    width: 10rem;
+    color:#fff;
+}
+.logout{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    left: 73rem;
+    top: -2.8rem;
+}
+.userName{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    left: 75rem;
+    top: -2.8rem;
+}
+.Login{
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    left: 82.7rem;
+    top: 1rem;
+}
+.register{
+    color: #fff;
+    text-decoration: none;
+    border: .1rem solid #FFFFFF;
+    position: absolute;
+    left: 87.5rem;
+    top: .8rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    border-radius: .4rem;
+}
+.userProfile{
+    width: 2.3rem;
+    /* border-radius:50%; */
+    position: relative;
+    bottom: 2.4rem;
+    left: 77rem;
+}
+
+
+@media only screen and (max-width:650px) {
+    .header{
+        background-color:#36416A;
+        width: 90rem;
+    }
+
+    .header li{
+        display: inline-block; 
+    }
+    .title{
+        font-size: 1.7rem;
+        position: relative;
+        bottom: 1.2rem;
+        font-weight: 5054
+    }
+
+    .register{
+        color: #fff;
+        text-decoration: none;
+        border: .1rem solid #FFFFFF;
+        position: absolute;
+        left: 82.5rem;
+        top: .8rem;
+        padding-left: .8rem;
+        padding-right: .8rem;
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+     border-radius: .4rem;
+    }
+
+    .Login{
+        color: #fff;
+        text-decoration: none;
+        position: absolute;
+        left: 78.4rem;
+        top: 1rem;
+    }
+
+    .logout{
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        left: 75rem;
+        top: -5rem;
+    }
+
+    .userProfile{
+        width: 2.3rem;
+        position: relative;
+        bottom: 4.4rem;
+        left: 70rem;
+    }  
+}
+
+ @media only screen and (min-width:360px){
+    .header{
+        background-color:#36416A;
+    }
+ }
