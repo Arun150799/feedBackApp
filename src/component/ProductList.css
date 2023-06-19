@@ -494,15 +494,15 @@
 
 .logo {
     width: 3rem;
-    position: relative;
-    right: 1.5rem;
+    position: absolute;
+    left: 0.8rem;
     top: .7rem;
 }
 
 .companyName {
     position: absolute;
     color: #36416A;
-    top: -.5rem;
+    top: -.9rem;
     left: 5rem;
     font-size: 1.1rem;
     font-weight: 500;
@@ -518,7 +518,7 @@
     border-radius: 1rem;
     position: absolute;
     left: 52rem;
-    top: 7.1rem;
+    top: 4.6rem;
     border: none;
     cursor: pointer;
     display: inline-block;
@@ -527,7 +527,7 @@
 
 .aboutText {
     position: absolute;
-    top: 1.5rem;
+    top: 0.7rem;
     left: 5rem;
     font-size: .9rem;
 }
@@ -536,7 +536,7 @@
     height: 1.7rem;
     position: relative;
     left: 1rem;
-    top: 1.4rem;
+    top: 3.1rem;
     background-color: #C0CEFF;
     display: inline-flex;
     margin-left: 1rem;
@@ -549,7 +549,7 @@
 .commentIcon {
     position: absolute;
     left: 64.6rem;
-    top: 7.2rem;
+    top: 4.9rem;
     z-index: 1200;
 }
 
@@ -558,6 +558,7 @@
     left: 11.4rem;
     bottom: 2.6rem;
     padding-right: 0rem;
+    cursor: pointer;
 
 }
 
@@ -585,6 +586,14 @@
     left: 5rem;
     top: 1rem;
 }
+.addProductText33{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    left: 5rem;
+    top: 1rem;
+}
 
 .port2 {
     background-color: #36416A;
@@ -598,34 +607,34 @@
 .jobLength {
     width: 8rem;
     position: absolute;
-    bottom: -.4rem;
+    bottom: .5rem;
     left: 26rem;
     font-weight: 700;
 }
 
 .upvotes {
-    width: 3rem;
+    width: 2.5rem;
     background-color: #C7CBD6;
-    height: 4.5rem;
+    height: 3.9rem;
     position: absolute;
-    left: 63.7rem;
-    top: 1rem;
+    left: 64rem;
+    top: .4rem;
     border-radius: 1rem;
 }
 
 .incresingVote {
     font-size: 1.6rem;
     position: absolute;
-    left: 1rem;
-    bottom: .4rem;
+    left: .8rem;
+    bottom: 0rem;
     cursor: pointer;
     font-weight: 500;
 }
 
 .showVote {
     position: absolute;
-    bottom: -.4rem;
-    left: 1.2rem;
+    bottom: -.6rem;
+    left: 1rem;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -641,7 +650,7 @@
 .comment {
     width: 10rem;
     position: absolute;
-    top: 8.4rem;
+    top: 7rem;
     left: 12rem;
 }
 
@@ -691,7 +700,7 @@
 .inputValuesCount {
     width: 5rem;
     position: relative;
-    bottom: 1.3rem;
+    bottom: .4rem;
     left: 60.6rem;
     font-size: 1.1rem;
     font-weight: 500;
@@ -793,7 +802,7 @@
     border: none;
 }
 
-@media only screen and (max-width:650px) {
+@media (min-width:300px) and (max-width:650px) {
     .productPortion {
         height: 20rem;
         margin-top: 5rem;

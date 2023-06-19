@@ -26,7 +26,7 @@ const SignUp = () => {
         const collectData =async() => {
           console.log(name, email, number, password);
       
-          let result = await fetch('https://growing-file.onrender.com/register',{
+          let result = await fetch('https://deshing-doc.onrender.com/register',{
             method:"post",
             body: JSON.stringify({name,email,number,password}),
             headers: { 

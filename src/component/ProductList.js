@@ -56,7 +56,7 @@ const ProductList = () => {
     const productCatogaryString = productCatogary.join(", ");
     console.log(companyName, companyLogoURL, productCatogaryString, productLink, aboutCompany);
 
-    let result = await fetch('https://growing-file.onrender.com/addJob', {
+    let result = await fetch('https://deshing-doc.onrender.com/addJob', {
       method: "post",
       body: JSON.stringify({ companyName, companyLogoURL, productCatogary: productCatogaryString, productLink, aboutCompany }),
       headers: {
@@ -85,7 +85,7 @@ const ProductList = () => {
   const collectData = async () => {
     console.log(name, email, number, password);
 
-    let result = await fetch('https://growing-file.onrender.com/register', {
+    let result = await fetch('https://deshing-doc.onrender.com/register', {
       method: "post",
       body: JSON.stringify({ name, email, number, password }),
       headers: {
@@ -111,7 +111,7 @@ const ProductList = () => {
 
   const getJobs = async () => {
     try {
-      const response = await fetch('https://growing-file.onrender.com/jobs');
+      const response = await fetch('https://deshing-doc.onrender.com/jobs');
       const result = await response.json();
       setJobList(result);
     } catch (error) {
@@ -121,7 +121,7 @@ const ProductList = () => {
 
   const fetchJobs = async () => {
     try {
-      const response = await axios.get('https://growing-file.onrender.com/jobs', {
+      const response = await axios.get('https://deshing-doc.onrender.com/jobs', {
         params: { ...filters, sortOption }
       });
       setJobList(response.data);
@@ -153,7 +153,7 @@ const ProductList = () => {
       setJobList(updatedJobList);
       setVotedJobs((prevVotedJobs) => [...prevVotedJobs, jobId]);
 
-      await axios.post(`https://growing-file.onrender.com/jobs/${jobId}/vote`, { upVotes: updatedVoteCount });
+      await axios.post(`https://deshing-doc.onrender.com/jobs/${jobId}/vote`, { upVotes: updatedVoteCount });
 
       console.log('Vote count updated successfully');
     } catch (error) {
@@ -195,7 +195,7 @@ const ProductList = () => {
       if (inputValues[index].trim() !== '') {
         try {
           const response = await axios.post(
-            `https://growing-file.onrender.com/todoText/${jobList[index]._id}`,
+            `https://deshing-doc.onrender.com/todoText/${jobList[index]._id}`,
             { productComment: inputValues[index].trim() }
           );
           console.log(response.data);
@@ -222,7 +222,7 @@ const ProductList = () => {
     if (inputValues[index].trim() !== '') {
       try {
         const response = await axios.post(
-          `https://growing-file.onrender.com/todoText/${jobList[index]._id}`,
+          `https://deshing-doc.onrender.com/todoText/${jobList[index]._id}`,
           { productComment: inputValues[index].trim() }
         );
         console.log(response.data);
@@ -260,7 +260,7 @@ const ProductList = () => {
   const handleLogin = async (e) => {
     console.log(email, password);
 
-    let result = await fetch('https://growing-file.onrender.com/login', {
+    let result = await fetch('https://deshing-doc.onrender.com/login', {
       method: "post",
       body: JSON.stringify({ email, password }),
       headers: {
@@ -282,7 +282,7 @@ const ProductList = () => {
     setEditpart(true);
     console.log(_id);
     try {
-      let response = await axios.get(`https://growing-file.onrender.com/editProduct/${_id}`);
+      let response = await axios.get(`https://deshing-doc.onrender.com/editProduct/${_id}`);
       setid(response.data._id)
 
       console.log(response.data.companyName);
@@ -300,7 +300,7 @@ const ProductList = () => {
   const handleUpdate = async () => {
     console.log(Id);
     try {
-      const response = await axios.put(`https://growing-file.onrender.com/editProduct/${Id}`, {
+      const response = await axios.put(`https://deshing-doc.onrender.com/editProduct/${Id}`, {
         companyName: companyName,
         companyLogoURL: companyLogoURL,
         productCatogary: productCatogary,
@@ -361,17 +361,16 @@ const ProductList = () => {
         <p className='textSort2'>Sort By:</p>
         <select className='selection2' value={sortOption} onChange={handleSortChange}>
           <option value=''> Comment</option>
-          <option className='option1' value='lowestPrice'>Comment : Lowest</option>
-          <option className='option1' value='highestPrice'>Comment : Highest</option>
-          <option className='option1' value='productName'>Comment: (A-Z)</option>
-          <option className='option1' value='-productName'>Comment: (Z-A)</option>
+          <option className='option1' value='highestPrice'>Comment : Lowest</option>
+          <option className='option1' value='lowestPrice'>Comment : Highest</option>
+          <option className='option1' value='-productName'>Comment: (A-Z)</option>
+          <option className='option1' value='productName'>Comment: (Z-A)</option>
 
         </select>
         <button className='addProduct' onClick={handleButtonClick}>+ Add product</button>
         {isOpen && (
           <div className="modal">
             <div className="overLay">
-            // ...existing code...
 
               {auth ? (
                 <>
@@ -398,7 +397,7 @@ const ProductList = () => {
                 <>
                   <div className='singupPop'>
                     <div className="div1">
-                      <p className='addProductText'>Signup to continue</p>
+                      <p className='addProductText33'>Signup to continue</p>
                       <img src={userPic} className='userPic1' alt='' />
                       <input type='text' value={name} placeholder='Name' className='inputS1' onChange={(e) => setName(e.target.value)} /><br />
                       <img src={emailPic} className='emailPic1' alt='' />
