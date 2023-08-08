@@ -94,13 +94,13 @@
         background-color: #36416A;
         width: 25rem;
        position: absolute;
-       height: 37.3rem;
+       height: 40.6rem;
     }
 
     .appNameLogin11 {
         width: 5rem;
         position: absolute;
-        top:-.8rem;
+        top:2rem;
         left: 2.5rem;
         font-size: 1.6rem;
         font-weight: 500;      
@@ -109,7 +109,7 @@
     .appTextLogin11 {
         width: 18rem;
         position: relative;
-        top: 2.5rem;
+        top: 5.5rem;
         left: 2.5rem;
         font-size: .9rem;
     }
@@ -120,7 +120,7 @@
         background-color: #fff;
         border-radius: 1rem;
         position: absolute;
-        top: 7rem;
+        top: 11rem;
         left: 2.5rem;
     }
 
