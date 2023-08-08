@@ -1248,8 +1248,8 @@
 
     .close {
         position: absolute;
-        bottom: 33rem;
-        left: 21.5rem;
+        top: 0.5rem;
+        left: 20rem;
         cursor: pointer;
         z-index: 1230;
         color: red;
@@ -1436,8 +1436,8 @@
     }
     .close00 {
         position: absolute;
-        bottom: 32.6rem;
-        left: 21.3rem;
+        top: 0.5rem;
+        left: 20rem;
         cursor: pointer;
         z-index: 1230;
         color: red;

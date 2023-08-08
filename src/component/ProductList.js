@@ -370,11 +370,12 @@ const ProductList = () => {
 
               {auth ? (
                 <>
-                  <span className="close" onClick={handleClose}>
-                    ❌
-                  </span>
+                 
                   <div className="popUp">
                     <div className='part1'>
+                    <span className="close" onClick={handleClose}>
+                    ❌
+                  </span>
                       <p className='addProductTextUp'>Add your product </p>
                       <input type='text' value={companyName} placeholder='Name of the Company' className='inputUp1' onChange={(e) => setCompanyName(e.target.value)} /><br />
                       <input type='text' value={companyLogoURL} placeholder='Add logo url ' className='inputUp2' onChange={(e) => setCompanyLogoURL(e.target.value)} /><br />
@@ -520,11 +521,12 @@ const ProductList = () => {
       {editpart && (
         <div className='modal'>
           <div className='overLay'>
-            <span className="close00" onClick={handleClose00}>
-              ❌
-            </span>
             <div className="editPopUp">
               <div className='part1'>
+              <span className="close00" onClick={handleClose00}>
+              ❌
+            </span>
+
                 <p className='addProductText00'>Update your product </p>
                 <input type='text' value={companyName} placeholder='Name of the Company' className='input1' onChange={(e) => setCompanyName(e.target.value)} /><br />
                 <input type='text' value={companyLogoURL} placeholder='Add logo url ' className='input3' onChange={(e) => setCompanyLogoURL(e.target.value)} /><br />
