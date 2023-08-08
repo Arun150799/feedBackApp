@@ -123,9 +123,10 @@
 @media only screen and (max-width :425px){
     .body1{
         width: 25rem;
-        height: 47.3rem;
+        height: 47.8rem;
         background-color: #36416A;
         color: #fff;
+        position: relative;
     }
 
     .appName{

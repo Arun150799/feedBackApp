@@ -93,8 +93,9 @@
     .bodyLogin {
         background-color: #36416A;
         width: 25rem;
-       position: absolute;
-       height: 46.1rem;
+       position: relative;
+       top: -1rem;
+       height: 36.3rem;
     }
 
     .appNameLogin11 {
