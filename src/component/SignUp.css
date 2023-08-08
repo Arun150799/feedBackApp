@@ -123,7 +123,7 @@
 @media only screen and (max-width :425px){
     .body1{
         width: 25rem;
-        height: 41.9rem;
+        height: 47.3rem;
         background-color: #36416A;
         color: #fff;
     }
@@ -131,7 +131,7 @@
     .appName{
         width: 5rem;
         position: absolute;
-        top:2.8rem;
+        top:.3rem;
         left: 2.5rem;
         font-size: 1.6rem;
         font-weight: 500;
@@ -139,7 +139,7 @@
     .appText{
         width: 18rem;
         position: relative;
-        top: 8.5rem;
+        top: 5.9rem;
         left: 2.5rem;
         font-size: .9rem;
     }
@@ -148,7 +148,7 @@
         background-color:#fff;
         height: 26rem;
         margin-left: 2.5rem;
-        margin-top:11rem;
+        margin-top:7.5rem;
         border-radius: 1rem;
     }
     .inputSignUp1{
