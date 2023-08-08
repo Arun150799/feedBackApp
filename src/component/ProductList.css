@@ -466,12 +466,14 @@
     position: relative;
     left: 3rem;
     top: 1rem;
+    display: none;
 }
 
 .forwardLinkS {
     position: relative;
     bottom: 2.6rem;
     left: 14.5rem;
+    display: none;
 }
 
 .div2 {
@@ -802,11 +804,129 @@
     border: none;
 }
 
-@media (min-width:300px) and (max-width:650px) {
+@media only screen and (max-width :425px){
     .productPortion {
         height: 20rem;
         margin-top: 5rem;
     }
+
+    .addButton11 {
+        background: #36416A;
+        border: none;
+        color: #fff;
+        border-radius: 1rem;
+        position: relative;
+        top: 5rem;
+        left: 0rem;        
+    }
+
+    .editPopUp {
+        width: 22rem;
+        height: 23rem;
+        background-color: #ABABAB;
+        z-index: 1200;
+        position: fixed;
+        right: 1.5rem;
+        top:2rem;
+        box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+        border-radius: 1rem;
+    
+        /* border: .1rem solid #36416A ; */
+    }
+
+    .commentExpand {
+        position: relative;
+        left: -1rem;
+        bottom: 2.6rem;
+        padding-right: 0rem;
+        cursor: pointer;
+    }
+    .addProductText33{
+        color: black;
+        font-size: 1.5rem;
+        font-weight: 500;
+        position: relative;
+        left: 5rem;
+        top: 4rem;
+    }
+    .commentText {
+        color: #ABABAB;
+        position: relative;
+        left: 0rem;
+        top: -5.5rem;
+        margin-left: 14rem;
+        display: none;
+    }
+    .accordionContent {
+        /* background-color: #36416A; */
+        /* color: #fff; */
+        width: 22rem;
+        position: relative;
+        bottom: -1rem;
+        right: 1.5rem;
+    }
+    .forwardButton {
+        width: 1.3rem;
+        position: relative;
+        bottom: 4rem;
+        left: 19rem;
+        cursor: pointer;
+    }
+    
+    .inputText {
+        width: 19rem;
+        height: 2.5rem;
+        border-radius: 1.5rem;
+        font-size: 1.2rem;
+        padding-left: 2rem;
+        border: .1rem #ABABAB;
+        margin-bottom: 2rem;
+        position: relative;
+        left: 0rem;
+    }
+    
+    .inputValuesCount {
+        width: 2rem;
+        position: relative;
+        bottom: .4rem;
+        left: 17.3rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .commentIcon {
+        position: absolute;
+        left: 20.9rem;
+        top: 4.9rem;
+        z-index: 1200;
+        width: 1.3rem;
+    }
+
+    .upvotes {
+        width: 2.2rem;
+        background-color: #C7CBD6;
+        height: 3.9rem;
+        position: absolute;
+        left: 20.4rem;
+        top: .4rem;
+        border-radius: 1rem;
+    }
+    .editJob {
+        text-decoration: none;
+        width: 3rem;
+        height: 1.5rem;
+        background-color: #36416A;
+        color: #fff;
+        padding-left: 1rem;
+        border-radius: 1rem;
+        position: absolute;
+        left: 14rem;
+        top: 4.6rem;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+    
+    }
+    
 
     .sideBarFilter {
         width: 17rem;
@@ -817,11 +937,29 @@
         border-radius: 1rem;
         display: none;
     }
+    .catogaryItem {
+        height: 1.7rem;
+        position: relative;
+        left: -3rem;
+        top: 3.1rem;
+        background-color: #C0CEFF;
+        display: inline-flex;
+        margin-left: .5rem;
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+        border-radius: 1rem;
+        padding-top: .2rem;
+    }
+    .filterPart{
+        width: 6rem;
+        position: relative;
+        right: 2rem;
+    }
 
     .aboutProduct {
-        width: 72rem;
+        width: 24rem;
         height: 4.2rem;
-        margin-left: 8.5rem;
+        margin-left: 0.5rem;
         margin-bottom: 20rem;
         position: relative;
         top: 10rem;
@@ -829,22 +967,24 @@
         border-radius: .3rem;
     }
 
+
     .addProduct {
-        width: 12rem;
-        height: 3rem;
+        width: 8rem;
+        height: 2rem;
         background-color: #36416A;
         color: #fff;
         border: none;
         position: relative;
-        bottom: 3.5rem;
-        left: 57rem;
-        font-size: 1.4rem;
+        bottom: 2.7rem;
+        left: 15.9rem;
+        font-size: 1rem;
         cursor: pointer;
         border-radius: .4rem;
     }
 
     .textSort1 {
-        margin-left: 13.5rem;
+        width: 5rem;
+        margin-left: .3rem;
         font-size: 1.3rem;
         margin-top: 1.1rem;
     }
@@ -856,10 +996,10 @@
         color: black;
         border: none;
         position: absolute;
-        left: 18.6rem;
+        left: 5.6rem;
         top: 1.1rem;
         cursor: pointer;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 700;
     }
 
@@ -867,6 +1007,7 @@
         margin-left: 28rem;
         font-size: 1.3rem;
         margin-top: -3.1rem;
+        display: none;
     }
 
     .selection2 {
@@ -881,24 +1022,31 @@
         cursor: pointer;
         font-size: 1.6rem;
         font-weight: 700;
+        display: none;
+    }
+    .logo {
+        width: 2.5rem;
+        position: absolute;
+        left: 0.8rem;
+        top: .7rem;
     }
 
     .jobLength {
         width: 12rem;
         position: absolute;
-        top: 74.5rem;
-        left: 10rem;
+        top: 50.5rem;
+        left: 1rem;
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .filter {
-        height: 5rem;
-        width: 16rem;
+        height: 4rem;
+        width: 10rem;
         box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
         position: relative;
-        left: 8.5rem;
-        top: 24rem;
+        left: .5rem;
+        top: 20rem;
         border-radius: .4rem;
     }
 
@@ -908,14 +1056,15 @@
         left: 10rem;
         top: 80rem;
         font-size: 1.3rem;
+        display: none;
     }
 
     .jobFormate {
-        width: 71rem;
+        width: 20.5rem;
         background-color: #6c6e7726;
         position: relative;
-        bottom: -4rem;
-        left: 8rem;
+        bottom: 0rem;
+        left: 1rem;
     }
 
     .singupPop {
@@ -923,11 +1072,12 @@
         height: 33rem;
         background-color: #ABABAB;
         z-index: 1200;
-        position: fixed;
-        top: 13rem;
-        left: 35rem;
+        position: relative;
+        top: 0rem;
+        left: 0rem;
         box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
         border-radius: 1.5rem;
+        
 
     }
 
@@ -935,7 +1085,7 @@
         width: 22rem;
         height: 33rem;
         background-color: #fff;
-        position: relative;
+        position: absolute;
         bottom: 0rem;
         border-radius: 1.5rem;
     }
@@ -961,12 +1111,12 @@
         border: none;
         color: #fff;
         border-radius: 1rem;
-        margin-top: 15rem;
+        margin-top: 13rem;
         margin-left: .3rem;
         cursor: pointer;
         font-size: 1.2rem;
         position: relative;
-        left: 0rem;
+        left: 3rem;
     }
 
     .textStyleS {
@@ -1083,13 +1233,13 @@
     }
 
     .popUp {
-        width: 22rem;
+        width: 21rem;
         height: 23rem;
         background-color: #ABABAB;
         z-index: 1200;
         position: fixed;
-        right: 32rem;
-        top: 11rem;
+        right: 2.5rem;
+        top: 1.8rem;
         box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
         border-radius: 1rem;
 
@@ -1201,6 +1351,7 @@
         position: relative;
         left: 3rem;
         top: 2rem;
+        width: 20rem;
     }
 
     .part2 {
@@ -1222,7 +1373,7 @@
         border: none;
         border-bottom: 1px solid black;
         position: relative;
-        top: 3.4rem;
+        top: 3.9rem;
         font-size: 1.2rem;
     }
 
@@ -1274,21 +1425,7 @@
         font-size: 1.2rem;
     }
 
-    .addButton11 {
-        width: 15rem;
-        height: 2.3rem;
-        background: #36416A;
-        border: none;
-        color: #fff;
-        border-radius: 1rem;
-        margin-top: 1rem;
-        margin-left: .3rem;
-        cursor: pointer;
-        font-size: 1.3rem;
-        position: relative;
-        left: 2.5rem;
-        top: 5rem;
-    }
+    
 
     .addProductText00 {
         color: black;
@@ -1296,7 +1433,7 @@
         font-weight: 700;
         position: relative;
         left: 3rem;
-        top: 2rem;
+        top: 4rem;
     }
     .close00 {
         position: absolute;

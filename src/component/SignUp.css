@@ -100,6 +100,7 @@
     top: 4rem;
     color: #000;
     left:4rem;
+    width: 17rem;
 }
 .loginLink{
     position: relative;
@@ -119,35 +120,35 @@
     cursor: pointer;
 }
 
-@media(max-width:650px){
+@media only screen and (max-width :425px){
     .body1{
-        width: 41rem;
+        width: 25rem;
+        height: 37.3rem;
         background-color: #36416A;
         color: #fff;
-        height: 48rem;
     }
 
     .appName{
         width: 5rem;
         position: absolute;
-        top:0em;
-        left: 12rem;
-        font-size: 2rem;
+        top:-.8rem;
+        left: 2.5rem;
+        font-size: 1.6rem;
         font-weight: 500;
     }
     .appText{
-        width: 25rem;
+        width: 18rem;
         position: relative;
-        top: 7.2rem;
-        left: 12rem;
-        font-size: 1.3rem;
+        top: 4.5rem;
+        left: 2.5rem;
+        font-size: .9rem;
     }
     .portion1{
-        width: 20.5rem;
+        width: 19rem;
         background-color:#fff;
-        height: 27rem;
-        margin-left: 10.5rem;
-        margin-top:10rem;
+        height: 26rem;
+        margin-left: 2.5rem;
+        margin-top:6rem;
         border-radius: 1rem;
     }
     .inputSignUp1{
@@ -225,12 +226,12 @@
     }
     .loginLink{
         position: relative;
-        top: 5.7rem;
-        left: 2rem;
+        top: 4rem;
+        left: 13.5rem;
         font-size: 1rem;
     }
     .signUpButton{
-        width: 13em;
+        width: 11em;
         height: 2rem;
         position: relative;
         top: 8.5rem;
@@ -243,36 +244,3 @@
         font-size: 1.3rem;
     }
 }
-
-/* @media only screen and (min-width:360px){
-    .body1{
-        width: 41rem;
-        background-color: #36416A;
-        color: #fff;
-        height: 66rem;
-    }
-    .appName{
-        width: 5rem;
-        position: absolute;
-        top:30rem;
-        left: 12rem;
-        font-size: 2rem;
-        font-weight: 500;
-    }
-    .appText{
-        width: 25rem;
-        position: relative;
-        top: 7.2rem;
-        left: 12rem;
-        font-size: 1.3rem;
-    }
-    .portion1{
-        width: 20.5rem;
-        background-color:#fff;
-        height: 27rem;
-        margin-left: 10.5rem;
-        margin-top:10rem;
-        border-radius: 1rem;
-    }
-
-} */

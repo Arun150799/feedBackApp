@@ -35,7 +35,7 @@ const Banner = () => {
     <div className='bannerPortion'>
       <div className="banner">
     <img src={img1} className='img1' alt='' />
-    <a  href={img1} download={img1}>download image</a>
+    {/* <a  href={img1} download={img1}>download image</a> */}
       </div>
       <div className="bannerText">
         <p className='text1'>Add your products and give your valuable feedback</p>

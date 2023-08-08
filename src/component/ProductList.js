@@ -142,7 +142,7 @@ const ProductList = () => {
 
   const handleVote = async (jobId, index) => {
     if (votedJobs.includes(jobId)) {
-      console.log('Already voted for this job.');
+      alert('Already voted for this job.');
       return;
     }
 
@@ -244,10 +244,6 @@ const ProductList = () => {
     }
   };
 
-    
-  
-  
-  
 
   useEffect(() => {
     const auth = localStorage.getItem("user")
@@ -535,14 +531,14 @@ const ProductList = () => {
                 <input type='text' value={productCatogary.length > 0 ? productCatogary.join(", ") : ""} placeholder='Catogary' className='input2' onChange={(e) => setProductCatogary(e.target.value.split(/,\s*/))} /><br />
                 <input type='text' value={productLink} placeholder='Link of product' className='input4' onChange={(e) => setProductLink(e.target.value)} /><br />
                 <input type='text' value={aboutCompany} placeholder='Add description' className='input5' onChange={(e) => setAboutCompany(e.target.value)} /><br />
-                <button type='submit' className='addButton11' onClick={handleUpdate}>+ Add</button>
+                <button  className='addButton11' onClick={handleUpdate}>Updated</button>
               </div>
               <div className='part2'>
                 <p className='nameApp'>Feedback</p>
                 <p className='nameAppText'>Update your product and rate other items.............</p>
               </div>
             </div>
-          </div>
+          </div> 
 
         </div>
       )}

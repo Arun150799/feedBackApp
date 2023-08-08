@@ -43,6 +43,7 @@
     position: relative;
     left: 75rem;
     top: -2.8rem;
+    display: block;
 }
 .Login{
     color: #fff;
@@ -73,10 +74,10 @@
 }
 
 
-@media only screen and (max-width:650px) {
+@media only screen and (max-width :425px){
     .header{
         background-color:#36416A;
-        width: 90rem;
+        width: 22.5rem;
     }
 
     .header li{
@@ -86,49 +87,55 @@
         font-size: 1.7rem;
         position: relative;
         bottom: 1.2rem;
+        left: -2rem;
         font-weight: 5054
     }
 
     .register{
+        font-size: .8rem;
         color: #fff;
         text-decoration: none;
         border: .1rem solid #FFFFFF;
         position: absolute;
-        left: 82.5rem;
-        top: .8rem;
-        padding-left: .8rem;
-        padding-right: .8rem;
-        padding-top: .2rem;
-        padding-bottom: .2rem;
+        left: 19.5rem;
+
+        width: 3rem;
      border-radius: .4rem;
+    }
+    .userName{
+        color: #8e1616;
+        text-decoration: none;
+        position: relative;
+        left: 10rem;
+        top: -2.8rem;
+        display: none;
     }
 
     .Login{
         color: #fff;
         text-decoration: none;
         position: absolute;
-        left: 78.4rem;
-        top: 1rem;
+        left:16rem;
+        top: .8rem;
     }
 
     .logout{
         color: #fff;
         text-decoration: none;
         position: relative;
-        left: 75rem;
-        top: -5rem;
+        left: 14.3rem;
+        top: -6rem;
+        font-size: 1.1rem;
     }
 
     .userProfile{
         width: 2.3rem;
+        height: 2.3rem;
         position: relative;
-        bottom: 4.4rem;
-        left: 70rem;
+        bottom: 5.2rem;
+        left: 15.6rem;
+        border-radius: 50%;
     }  
 }
 
- @media only screen and (min-width:360px){
-    .header{
-        background-color:#36416A;
-    }
- }
+ 

@@ -89,46 +89,45 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width:650px) {
+@media only screen and (max-width :425px){
     .bodyLogin {
         background-color: #36416A;
-        width: 65rem;
+        width: 25rem;
        position: absolute;
-       height:93.6rem ;
+       height: 37.3rem;
     }
 
     .appNameLogin11 {
-        width: 16rem;
-        font-size: 3.5rem;
-        font-weight: 500;
+        width: 5rem;
         position: absolute;
-        top: 10rem;
-        left: 8rem;
-      
+        top:-.8rem;
+        left: 2.5rem;
+        font-size: 1.6rem;
+        font-weight: 500;      
     }
 
     .appTextLogin11 {
-        width: 25rem;
-        font-size: 1.3rem;
-        position: absolute;
-        top: 17rem;
-        left: 8rem;
+        width: 18rem;
+        position: relative;
+        top: 2.5rem;
+        left: 2.5rem;
+        font-size: .9rem;
     }
 
     .portionLogin {
-        width: 50.5rem;
-        height: 30rem;
+        width: 19.9rem;
+        height: 27rem;
         background-color: #fff;
         border-radius: 1rem;
         position: absolute;
-        top: 26rem;
-        left: 8rem;
+        top: 7rem;
+        left: 2.5rem;
     }
 
     .inputLogIn77 {
-        width: 30rem;
+        width: 13rem;
         position: relative;
-        left: 12.8rem;
+        left: 5.9rem;
         top: 4.8rem;
         border: none;
         outline: none;
@@ -137,9 +136,9 @@
     }
 
     .inputLogIn78 {
-        width: 30rem;
+        width: 13rem;
         position: relative;
-        left: 13.1rem;
+        left: 5.9rem;
         top: 7.3rem;
         border: none;
         outline: none;
@@ -148,43 +147,43 @@
     }
 
     .emailPic77{
-        width: 2.4rem;
+        width: 1.6rem;
         position: absolute;
-        left: 4rem;
+        left: 2rem;
         top: 6.5rem;
 
     }
 
     .passwordPic77 {
-        width: 2.1rem;
+        width: 1.5rem;
         position: absolute;
-        top: 11.0rem;
-        left: 4rem;
+        top: 11.5rem;
+        left: 2rem;
     }
 
     .loginText99 {
         width: 16rem;
         position: absolute;
         top: 15rem;
-        left: 4rem;
+        left: 2rem;
         color: #000;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .signupLink99 {
         position: absolute;
-        top: 16.4rem;
-        left: 20.7rem;
-        font-size: 1.5rem;
+        top: 16.2rem;
+        left: 14.8rem;
+        font-size: 1.2rem;
 
     }
 
     .loginButton77 {
-        width: 23em;
+        width: 10em;
         height: 3rem;
         position: relative;
         top: 16.5rem;
-        left: 6rem;
+        left: 2rem;
         background-color: #36416A;
         color: #fff;
         border: none;
